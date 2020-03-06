@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      
+        <title> Desafio Web App</title>
+    </head>
+
+    <body>
+           <!-- Simple header with fixed tabs. -->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+            <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row"> 
+            <!-- Expandable Textfield -->
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+ mdl-textfield--floating-label">
+              <label class="mdl-button mdl-js-button mdl-button--icon" for="search-expandable2">
+                <i class="material-icons">search</i>
+              </label>
+              <div class="mdl-textfield__expandable-holder">
+                <input class="mdl-textfield__input" type="text" id="search-expandable2">
+                <label class="mdl-textfield__label" for="search-expandable2">
+                  Pesquisar
+                </label>
+              </div>
+            </div>
+            </div>
+            <!-- Tabs -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <a href="#fixed-tab-1" class="mdl-layout__tab "><span class="mdc-tab__icon material-icons" aria-hidden="true">query_builder</span></a>
+            <a href="#fixed-tab-2" class="mdl-layout__tab"><span class="mdc-tab__icon material-icons" aria-hidden="true">collections_bookmark</span></a>
+            <a href="#fixed-tab-3" class="mdl-layout__tab is-active"><span class="mdc-tab__icon material-icons" aria-hidden="true">language</span></a>
+            <a href="#fixed-tab-4" class="mdl-layout__tab"><span class="mdc-tab__icon material-icons" aria-hidden="true">person</span></a>
+            </div>
+            </header>
+            
+
+            <main class="mdl-layout__content">
+
+                <div class="demo-card-image mdl-card mdl-shadow--2dp">
+                  <div class="mdl-card__title mdl-card--expand"></div>
+                  <div class="mdl-card__actions">
+                    <span class="demo-card-image__filename">
+                      <p id="feat">Featured</p>
+                      <h5 id="poetry">Poetry Classics</h5>
+                      <p>Collection of novels about big city and a man inside</p>
+                    </span>
+                  </div>
+                </div>
+
+                 <div id="chips">
+                  <span class="mdl-chip">
+                    <span class="mdl-chip__text">TOP CHARTS</span>
+                  </span>
+                  <span class="mdl-chip">
+                    <span class="mdl-chip__text">AUTHORS</span>
+                  </span>
+                  <span class="mdl-chip">
+                    <span class="mdl-chip__text">GENRES</span>
+                  </span>
+                  <span class="mdl-chip">
+                    <span class="mdl-chip__text">TITLE</span>
+                  </span>
+                  <span class="mdl-chip">
+                    <span class="mdl-chip__text">COUNTRY</span>
+                  </span>
+                  <span class="mdl-chip">
+                    <span class="mdl-chip__text">LANGUAGE</span>
+                  </span>
+                </div>
+
+                <section>
+                    <div id="charts-card">
+                        <p id="charts"> Charts </p>
+                        <button class="mdc-button botao">
+                            <div class="mdc-button__ripple"></div>
+                            <span class="mdc-button__label">MORE</span>
+                        </button>                
+                    </div>
+                    <div id="cards">
+                      <div class="mdc-card">
+                          <div class="mdc-card__primary-action">
+                            <div class="mdc-card__media">
+                            
+                            </div>
+                            <!-- ... additional primary action content ... -->
+                          </div>
+                          <div class="mdc-card__actions-full-bleed">
+                            <p class="mdc-card__supporting-text">Título 1</p>
+                            <p class="mdc-card__supporting-text autor">Autor 1</p>
+                            <div class="mdc-card__action-buttons">
+                              <button class="mdc-button mdc-card__action mdc-card__action--button">
+                                <div class="mdc-button__ripple"></div>
+                                <span class="mdc-button__label">USD22.9</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="mdc-card">
+                          <div class="mdc-card__primary-action">
+                            <div class="mdc-card__media">
+                            
+                            </div>
+                            <!-- ... additional primary action content ... -->
+                          </div>
+                          <div class="mdc-card__actions-full-bleed">
+                            <p class="mdc-card__supporting-text">Título 2</p>
+                            <p class="mdc-card__supporting-text autor">Autor 2</p>
+                            <div class="mdc-card__action-buttons">
+                              <button class="mdc-button mdc-card__action mdc-card__action--button">
+                                <div class="mdc-button__ripple"></div>
+                                <span class="mdc-button__label">USD22.9</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="mdc-card">
+                          <div class="mdc-card__primary-action">
+                            <div class="mdc-card__media">
+                            
+                            </div>
+                            <!-- ... additional primary action content ... -->
+                          </div>
+                          <div class="mdc-card__actions-full-bleed">
+                            <p class="mdc-card__supporting-text">Título 3</p>
+                            <p class="mdc-card__supporting-text autor">Autor 3</p>
+                            <div class="mdc-card__action-buttons">
+                              <button class="mdc-button mdc-card__action mdc-card__action--button">
+                                <div class="mdc-button__ripple"></div>
+                                <span class="mdc-button__label">USD22.9</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="mdc-card">
+                          <div class="mdc-card__primary-action">
+                            <div class="mdc-card__media">
+                            
+                            </div>
+                            <!-- ... additional primary action content ... -->
+                          </div>
+                          <div class="mdc-card__actions-full-bleed">
+                            <p class="mdc-card__supporting-text">Título 4</p>
+                            <p class="mdc-card__supporting-text autor">Autor 4</p>
+                            <div class="mdc-card__action-buttons">
+                              <button class="mdc-button mdc-card__action mdc-card__action--button">
+                                <div class="mdc-button__ripple"></div>
+                                <span class="mdc-button__label">USD22.9</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section>
+                  <div id="charts-card">
+                      <p id="charts"> Authors </p>
+                      <button class="mdc-button botao">
+                          <div class="mdc-button__ripple"></div>
+                          <span class="mdc-button__label">MORE</span>
+                      </button>                
+                  </div>
+                  <div id="autores">
+                    <ul class="demo-list-icon mdl-list">
+                      <li class="mdl-list__item">
+                        <span class="mdl-list__item-primary-content">
+                          <span class="mdc-image-list__image1" >
+                            <img src="./perfil.jpg" height="80px" width="80px">
+                            <p class="author">Nome</p>
+                          </span>
+                        </span>
+                      </li>
+                      <li class="mdl-list__item">
+                        <span class="mdl-list__item-primary-content">
+                          <span class="mdc-image-list__image1" >
+                            <img src="./perfil.jpg" height="80px" width="80px">
+                            <p class="author">Nome</p>
+                          </span>
+                        </span>
+                      </li>
+                      <li class="mdl-list__item">
+                        <span class="mdl-list__item-primary-content">
+                          <span class="mdc-image-list__image1" >
+                            <img src="./perfil.jpg" height="80px" width="80px">
+                            <p class="author">Nome</p>
+                          </span>
+                        </span>
+                      </li>
+                      <li class="mdl-list__item">
+                        <span class="mdl-list__item-primary-content">
+                          <span class="mdc-image-list__image1" >
+                            <img src="./perfil.jpg" height="80px" width="80px">
+                            <p class="author">Nome</p>
+                          </span>
+                        </span>
+                      </li>
+                      
+                    </ul>
+                  </div>
+              </section>
+
+
+
+            </main>
+            </div>
+
+
+
+    </body>
+</HTML>

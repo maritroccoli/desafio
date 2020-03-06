@@ -1,0 +1,137 @@
+body {
+    font-family:'Spartan', sans-serif; 
+    background-color: #f2f1f2;
+}
+
+.mdl-layout__header {
+    padding-top: 7px;
+    background: lightcoral;
+}
+
+.mdl-layout__tab-bar{
+    background: lightcoral;
+}
+
+.mdl-textfield__expandable-holder{
+    width: 300px;
+}
+
+.demo-card-image {
+  width: 414px;
+  height: 256px;
+  background: url(./estante.jpg) center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 130px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#feat {
+    margin: 0;
+}
+
+#poetry {
+    margin: 16px 0px 16px 0px;
+}
+
+
+.mdl-shadow--2dp {
+    box-shadow: none;
+}
+
+
+.mdl-chip {
+    color: white;
+    background: lightcoral;
+    margin: 5px;
+}
+
+
+#chips {
+    margin: 15px 10px 10px 10px;
+    display: flex;
+    height: 40px;
+    overflow-x: scroll;   
+    overflow-y: hidden;
+}
+
+
+#charts-card{
+    display: flex;
+    margin: 30px 20px 20px 15px;
+    justify-content: space-between;
+}
+
+#charts {
+    margin: 0px;
+}
+
+.botao {
+    margin-top: -10px;
+}
+
+#cards {
+    margin: 10px;
+    display: flex;
+    overflow-x: scroll;
+    height: 310px;
+}
+
+.mdc-card{
+    width: 360px;
+    margin-left: 20px;
+    height: 300px;
+    padding: 5px;
+}
+
+.mdc-card__media {
+    background-image: url("./capa.jpg");
+    height: 200px;
+    width: 130px;
+  }
+
+.mdc-card__actions-full-bleed {
+    display: block;
+    padding-top: 7px;
+}
+
+.mdc-card__supporting-text {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.mdl-list{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.mdl-list__item .mdl-list__item-primary-content {
+    flex-direction: column-reverse;
+    margin: 0px;
+    padding: 0px;
+}
+
+.author {
+    font-size: 12px;
+    font-weight: inherit;
+}
+
+.mdc-image-list__image1 {
+    background-repeat: no-repeat;
+    border-radius: 80px;
+   
+}
+
+
+@media screen and (max-width: 1024px) {
+.mdl-layout__header-row {
+    height: 56px;
+    padding: 0 16px 0 15px;
+    }
+}
+
